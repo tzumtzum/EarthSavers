@@ -185,7 +185,7 @@
 
 			var infowindow = new google.maps.InfoWindow(
 					{
-						content : '<div>Name: Flare\'s Shelter <br>Capacity: 6/10 <br>Resources Available: Food, Water, Medicine</div><input type="button" value="-"><input type="number" value="0"><input type="button" value="+"><br><div align="center"><input type="button" value="Shelter me!"></div>'
+						content : '<div>Name: Flare\'s Shelter <br>Capacity: 6/10 <br>Resources Available: Food, Water, Medicine</div> <div> Spaces Needed: <input type="button" value="-"><input type="number" value="0" size="5"><input type="button" value="+"><div align="center"><input type="button" value="Shelter me!"></div></div>'
 					});
 			marker.addListener('click', function() {
 				infowindow.open(map, marker);
